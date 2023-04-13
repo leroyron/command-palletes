@@ -268,7 +268,7 @@ const image = new Gtk.Image({
     opacity: 0.75
 });
 //image.set_from_file('samp.jpeg');
-image.setFromFile('/home/tolo/.misc/icons/DiscipleAI.png');
+image.setFromFile('./DiscipleAI.png');
 
 
 let GiganticFolderBox = new Gtk.Box({
